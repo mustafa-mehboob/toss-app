@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form class="form" action="">
+            <div class="input-div">
+                <input class="inpit-i" type="text" id="player1" placeholder="Enter Player 1 Name">
+                <input class="inpit-i" type="text" id="player2" placeholder="Enter Player 2 Name">
+            </div>
+            <button class="m-but" id="button" type="button" onclick="myfunction()">Play</button>
+        </form>
+
+
+        <div class="fm-pp" id="fo-re">
+            <div id="p1" class="p1"></div>
+            <div id="p2" class="p2"></div>
+            <div id="p3" class="p3"></div>
+        </div>
+
+
+
+        <div class="fm-2" id="slect1" style="display: none;">
+            <button type="button" class="t-but" id="st1" onclick="function1()">Head</button>
+            <button type="button" class="t-but" id="st2" onclick="function2()">Tail</button>
+        </div>
+        <div id="winer" class="winer"></div>
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
